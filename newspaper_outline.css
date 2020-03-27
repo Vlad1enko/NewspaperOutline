@@ -1,0 +1,180 @@
+
+/*         TAG SELECTORS
+-----------------------------------*/
+
+body {
+    margin: 0;
+}
+hr {
+    background: black;
+    height: 1px;
+    width: 101.5%;
+}
+figure {
+    margin: 0;
+}
+h2 {
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    margin: 0;
+}
+h3 {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+figcaption p {
+    margin:0;
+    text-align:right;
+    font-family: sans-serif;
+    font-size: .8vw;
+}
+adress p {
+    margin: 5px 0 0;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+footer p {
+    margin: 0;
+    text-align: right;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+}
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/*         HEADER AREA
+---------------------------------------------*/
+
+#header-text {
+    font-size: 6vw;
+}
+#header-block {
+    display: flex;
+    justify-content: space-between;
+}
+#header-issue, #header-date {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+#header-date {
+    margin-right: 1%;
+    margin-left: 0;
+}
+#main-area {
+    display: flex;
+    flex-direction: row;
+}
+#divider {
+    width: 90%;
+    background: black;
+    height: 3px;
+}
+
+/*         1ST COLUMN
+--------------------------------------------*/
+
+#first-col {
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
+#weather {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/*         APOLLO ARTICLE
+-----------------------------------*/
+
+#apollo img {
+    width: 100%;
+    margin-top: 15px;
+}
+#apollo-article {
+    column-count: 3;
+    /* display: inline-flex;
+    flex-direction: row;  */
+}
+#apollo-article > * {
+    /* flex: 1 1 28%; */
+    font-size: 1vw;
+    padding-right: 10px;
+    text-align: justify;
+}
+#apollo-article > *:last-of-type {
+    padding-right: 0;
+}
+#apollo-article > * > p {
+    margin:5px 0;
+}
+
+/*         DALAI ARTICLE
+-----------------------------------*/
+
+#dalai-block {
+    display: inline-flex;
+    flex-direction: row;
+}
+#dalai-first-block {
+    padding-right: 20px;
+}
+#dalai-article {
+    column-count: 2;
+}
+#dalai-article > * {
+    /* flex: 1 1 28%; */
+    font-size: 1vw;
+    padding-right: 10px;
+    text-align: justify;
+}
+#dalai-article > *:last-of-type {
+    padding-right: 0;
+}
+#dalai-article > * > p {
+    margin:5px 0;
+}
+#dalai-second-block > p {
+    font-size: 1vw;
+}
+#dalai-picture img {
+    width: 100%;
+}
+
+
+#second-col {
+    padding-left: 5px;
+}
+#second-col main p {
+    text-align: justify;
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+/*         2ND COLUMN
+----------------------------------------------*/
+/*         CAT ARTICLE
+-----------------------------------*/
+
+#cat img {
+    width: 100%;
+}
+#cat hr {
+    position: relative;
+    right: 5px;
+}
+
+/*         DEAN ARTICLE
+-----------------------------------*/
+
+#Dean figure {
+    float: right;
+    width: 50%;
+}
+#Dean img {
+    width: 100%;
+}
